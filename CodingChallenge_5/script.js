@@ -15,7 +15,7 @@ var familyJohn = {
 
 var familyMark = {
     bills: [77, 375, 110, 45],
-    tipCalculator: function(bill) {
+    tipCalculator: bill => {
         if (bill < 100) {
             return 0.2 * bill;
         } 
